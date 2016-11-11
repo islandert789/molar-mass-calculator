@@ -48,7 +48,6 @@ int main(int argc, char *argv[]) {
 	massMap["Uut"] = 284;
 
 	string molecule = argv[1];
-	cout << molecule << endl;
 	string elementName = "";
 	string elementN = "";
 	double mass = 0;

@@ -1,1 +1,6 @@
 A cpp program to convert chemical formulas into molar masses.
+
+How to use:
+1. Compile the molarMass.cpp on your favorite compiler.
+2. Run the compiled program like ./molarMass H2O2.
+    - this returns "Molar mass: 34.016"
