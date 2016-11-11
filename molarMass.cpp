@@ -45,6 +45,7 @@ int main(int argc, char *argv[]) {
 	massMap["Se"] = 78.97;
 	massMap["Br"] = 79.90;
 	massMap["Kr"] = 83.80;
+	massMap["Uut"] = 284;
 
 	string molecule = argv[1];
 	cout << molecule << endl;
@@ -68,10 +69,6 @@ int main(int argc, char *argv[]) {
 				//cout << "Found the first character of the element name: " << elementName << endl;
 			}
 		} else if (islower(molecule[i])) {
-			if (elementName.length() != 1) {
-				//cout << "this lowerase letter does not follow an uppercase letter";
-				return 1;
-			}
 			elementName += molecule[i];
 			//cout << "Added a lowercase letter to the element name: " << elementName << endl;
 		} else if (isdigit(molecule[i])) {
