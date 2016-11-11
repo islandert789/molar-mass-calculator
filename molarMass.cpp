@@ -2,6 +2,6 @@
 using namespace std;
 int main() {
 	cout << "Hello there\n";
-	cout << "This change was made to the branch master\n";
+	cout << "Hopefuly this merge will work\n";
 	return 0;
 }
