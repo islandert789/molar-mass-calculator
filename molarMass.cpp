@@ -138,6 +138,6 @@ void incrMass(int multiplier, string elementName, string elementN, double & mass
 	if (elementN != "") {
 		multiplier *= stoi(elementN);
 	}
-	cout << "\tIncreasing mass by " << multiplier << " " << elementName << endl;
+	//cout << "\tIncreasing mass by " << multiplier << " " << elementName << endl;
 	mass += massMap.at(elementName) * multiplier;
 }
